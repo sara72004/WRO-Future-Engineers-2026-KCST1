@@ -10,20 +10,33 @@ The system is designed to achieve **robust, repeatable, and stable navigation** 
 - Deterministic decision-making algorithms  
 
 ---
-
 ## 👥 Team Members
 
-### Abbas
-![Abbas](t-photos/Abbas.jpeg)
+<div align="center">
 
-*Responsible for software development, testing, and system validation.*
+<table>
+<tr>
+<td align="center">
 
----
+<img src="t-photos/Sara.jpeg" width="200"/>
 
-### Sara
-![Sara](t-photos/Sara.jpeg)
+**Sara**  
+*Hardware Design, Mechanical Integration, GitHub Management*
 
-*Responsible for hardware design, mechanical integration, and repository (GitHub) management.*
+</td>
+
+<td align="center">
+
+<img src="t-photos/Abbas.jpeg" width="200"/>
+
+**Abbas**  
+*Software Development, Testing, System Validation*
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
