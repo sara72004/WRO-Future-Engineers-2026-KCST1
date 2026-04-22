@@ -13,17 +13,17 @@ The system is designed to achieve **robust, repeatable, and stable navigation** 
 
 ## 👥 Team Members
 
-### Sara
-![Sara](t-photos/Sara.jpeg)
-
-*Responsible for hardware design, mechanical integration, and repository (GitHub) management.*
-
----
-
 ### Abbas
 ![Abbas](t-photos/Abbas.jpeg)
 
 *Responsible for software development, testing, and system validation.*
+
+---
+
+### Sara
+![Sara](t-photos/Sara.jpeg)
+
+*Responsible for hardware design, mechanical integration, and repository (GitHub) management.*
 
 ---
 
