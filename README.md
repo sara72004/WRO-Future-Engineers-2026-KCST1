@@ -10,6 +10,7 @@ The system is designed to achieve **robust, repeatable, and stable navigation** 
 - Deterministic decision-making algorithms  
 
 ---
+
 ## 👥 Team Members
 
 <div align="center">
@@ -41,17 +42,16 @@ The system is designed to achieve **robust, repeatable, and stable navigation** 
 ---
 
 ### 👩‍🏫 Coach
-- Eng. Zainab
-
+- Eng. Zainab  
 
 We would like to express our sincere appreciation to our coach for her guidance, support, and continuous feedback throughout the development of this project.
----
 
+---
 
 ### Team
 ![Team](t-photos/Team%20WRO2025.jpeg)
 
-
+---
 
 ## 🎥 Demonstration Video
 👉 https://youtu.be/j1B9A54QlEQ  
@@ -67,95 +67,75 @@ The primary objective was to develop a robot capable of:
 - Consistent lap completion without external input  
 - High reliability under real competition conditions  
 
-To achieve this, we followed an **iterative engineering process**, continuously refining both **hardware and software** based on real testing results.
-
 ---
 
 ## 🔧 Hardware Architecture
 
 ### 🧠 Controller
+
+<div align="center">
+<img src="v-photos/MAFI900 , MATRIX WRO Future Innovators Set.png" width="300"/>
+</div>
+
 - MATRIX Mini R4 (MAFI900 kit)  
-Acts as the central processing unit, handling:
-- Sensor fusion  
-- Control logic execution  
-- Actuator control  
 
 ---
 
 ### 📡 Sensor System
 
+<div align="center">
+<img src="v-photos/V2MATRIX Laser Sensor V2.png" width="220"/>
+<img src="v-photos/MS-002V3 , MATRIX Color Sensor V3.png" width="220"/>
+<img src="v-photos/MS-010 , M-Vision Cam with Type-C Cable Pack.png" width="220"/>
+</div>
+
 - **3 × MATRIX Laser Sensor V2**
-  - Front → forward obstacle detection  
-  - Left & Right → lateral distance comparison  
-
-✔ Selected as the **primary sensing system** due to:
-- High reliability compared to color detection  
-- Independence from lighting conditions  
-- Consistent distance measurement  
-
----
-
 - **MATRIX Color Sensor V3**
-  - Used for floor color detection (blue/orange)  
-  - Supports directional decision logic  
+- **M-Vision Camera (MS-010)**  
 
----
-
-- **M-Vision Camera (MS-010)**
-  - Used during early development stages  
-  - Evaluated for object detection capability  
-  - Later deprioritized due to complexity and inconsistency  
+✔ Laser sensors chosen for reliability and consistency  
 
 ---
 
 ### ⚙️ Actuation System
 
-- **TT Encoder Motor**
-  - Provides forward motion  
-  - Enables controlled speed output  
+<div align="center">
+<img src="v-photos/METT-MG001 , MATRIX TT Encoder Motor with metal gear box.png" width="220"/>
+<img src="v-photos/MRC-MG996R , MATRIX RC Servo with metal gear box.png" width="220"/>
+</div>
 
-- **MG996R Servo Motor (Metal Gearbox)**
-  - Controls steering angle  
-  - Chosen for:
-    - High torque  
-    - Mechanical durability  
-    - Precision control  
+- TT Encoder Motor  
+- MG996R Servo Motor  
 
 ---
 
 ### 🛞 Wheel System
 
-- MATRIX TT Wheels (Blue Rim)
+<div align="center">
+<img src="v-photos/MATRIX TT Wheel (Blue Rim).png" width="220"/>
+</div>
 
-#### 🔍 Design Decision
+- MATRIX TT Wheels  
 
-Initial configuration used mixed wheels (yellow + blue), which resulted in:
-- Uneven traction  
-- Vibrations during movement  
-- Reduced steering accuracy  
-
-#### ✅ Improvement
-All wheels were replaced with identical blue wheels, resulting in:
-- Uniform friction  
-- Improved stability  
-- Smoother turning behavior  
+✔ Improved stability after replacing mixed wheels  
 
 ---
 
 ### 🔧 Mechanical Innovation – Custom Axle
 
+<div align="center">
+<img src="v-photos/24.%20axle%20before%20(loose).jpeg" width="220"/>
+<img src="v-photos/25.%203D%20printed%20axle%20pieces.jpeg" width="220"/>
+<img src="v-photos/27.%20installed%20axle%20on%20robot.jpeg" width="220"/>
+</div>
+
 #### Problem:
-After upgrading the wheels, the axle did not fit tightly inside the wheel hub, causing:
-- Mechanical play  
-- Inconsistent steering response  
+Loose axle → unstable steering  
 
 #### Solution:
-A **custom 3D-printed axle** was designed and implemented to:
-- Achieve a perfect fit  
-- Eliminate unwanted movement  
-- Improve steering precision  
+Custom 3D printed axle  
 
-✔ This modification significantly increased control accuracy and repeatability.
+✔ Result: precise steering and stability  
 
 ---
 
@@ -163,133 +143,125 @@ A **custom 3D-printed axle** was designed and implemented to:
 
 ### ❌ Initial Approach – Color-Based Navigation
 
-The robot initially relied on:
-- Floor color detection (blue/orange)  
-- Camera-assisted obstacle handling  
+<div align="center">
+<img src="v-photos/13.%20blue%20color%20sensor%20testing.jpeg" width="220"/>
+<img src="v-photos/15.%20orange%20color%20sensor%20testing.jpeg" width="220"/>
+</div>
 
-#### Observed Issues:
-- Missed color lines at higher speeds  
-- Sensitivity to lighting conditions  
-- Inconsistent behavior across runs  
+Issues:
+- Missed detections  
+- Lighting sensitivity  
+- Inconsistent runs  
 
 ---
 
 ### ✅ Final Approach – Laser-Based Navigation
 
-A fully sensor-driven navigation system was developed using three laser sensors.
-
-### Core Algorithm:
-1. Robot moves forward continuously  
-2. When front sensor detects a wall:
-   - Compare left and right distances  
-   - Turn toward the side with greater available space  
+✔ Reliable  
+✔ Consistent  
+✔ Independent of lighting  
 
 ---
 
 ### 🔁 Direction Locking Strategy
 
-To ensure consistent pathing:
+- First turn decides direction  
+- All future turns follow same direction  
 
-- The **first detected turn determines direction**:
-  - Right side closer → turn left → Counter-clockwise  
-  - Left side closer → turn right → Clockwise  
-
-- All subsequent turns follow the same direction  
-
-✔ This eliminates oscillation and improves path stability.
+✔ Prevents oscillation  
 
 ---
 
 ## 💻 Software Architecture
 
-Two control strategies were implemented to optimize performance under different conditions:
+### 🅰️ Stop-Then-Turn
+- High accuracy  
+- Slower  
+
+### 🅱️ Continuous Turn
+- Faster  
+- Slight drift  
 
 ---
 
-### 🅰️ Strategy 1 – Stop-Then-Turn
-
-- Robot stops before executing a turn  
-- Reduces inertia and drift  
-- Improves turning accuracy  
-
-✔ Advantage:
-- High precision  
-
-❌ Trade-off:
-- Slower lap time  
+### 🎯 Final Strategy
+Both approaches kept for flexibility during competition  
 
 ---
 
-### 🅱️ Strategy 2 – Continuous Turn
+## 💻 Source Code
 
-- Robot maintains forward motion while turning  
-- Reduces time loss  
-- Increases speed  
+The complete implementation is available in the `src/` folder.
 
-✔ Advantage:
-- Faster performance  
+Example logic:
 
-❌ Trade-off:
-- Slight turning drift  
-
----
-
-### 🎯 Design Decision
-
-Both strategies were retained to allow:
-- Adaptability during competition  
-- Selection based on arena performance  
-
+```cpp
+if (rightS < leftS)
+{
+    Direction = 'L';
+}
+else
+{
+    Direction = 'R';
+}
+```
 ---
 
 ## 🧪 Testing & Validation
 
-### Challenge:
-Limited access to the official competition arena  
+<div align="center">
+  <img src="v-photos/home%20arena.jpeg" width="250"/>
+  <img src="v-photos/arena.jpeg" width="250"/>
+</div>
 
-### Solution:
-A **custom home testing environment** was constructed using:
-- Boxes to simulate walls  
-- Replicated track layout  
+- Built a custom home arena  
+- Simulated competition conditions  
 
-### Outcome:
-- Enabled continuous testing  
-- Allowed parameter tuning  
-- Improved reliability before competition  
+✔ Enabled continuous testing
+
+---
+
+## 🏎️ Final Robot Design
+
+<div align="center">
+  <img src="v-photos/20.%20final%20design.jpg" width="250"/>
+  <img src="v-photos/21.%20final%20design.jpg" width="250"/>
+</div>
+
+The final robot design represents the result of multiple engineering iterations.
+
+### Key Improvements:
+- Uniform wheel system  
+- Custom 3D printed axle  
+- Optimized sensor placement  
+- Stable chassis design  
+
+✔ Achieved balance between **speed, stability, and reliability**
 
 ---
 
 ## 📁 Repository Structure
-engineering_journal/ → detailed development process and decisions
-hardware/ → components and wiring documentation
-mechanical/ → design iterations and improvements
-software/ → control logic explanation
-src/ → source code implementations
-testing/ → experimental results and validation
-t-photos/ → team documentation
-v-photos/ → robot images
-video/ → demonstration video
 
+- `engineering_journal/`
+- `hardware/`
+- `mechanical/`
+- `software/`
+- `src/`
+- `testing/`
+- `t-photos/`
+- `v-photos/`
+- `video/`
 
 ---
 
 ## 🏁 Engineering Summary
 
-This project demonstrates a complete engineering workflow:
-
-- Problem identification through testing  
-- Iterative improvement of hardware and software  
-- Data-driven decision making  
-- Practical solutions (e.g., custom axle design)  
-
-### Key Outcomes:
-- Transition to a more reliable sensing system  
-- Improved mechanical stability  
-- Flexible software strategies  
-- Consistent autonomous performance  
+- Iterative design improvements  
+- Hardware and software optimization  
+- Real-world testing validation  
 
 ---
 
 ## 🧾 Final Note
 
-The final robot achieves **stable, repeatable, and reliable navigation**, meeting the requirements of the WRO Future Engineers challenge while demonstrating strong engineering design principles.
+The robot achieves **stable, repeatable, and reliable autonomous navigation**, meeting WRO requirements while demonstrating strong engineering principles.
