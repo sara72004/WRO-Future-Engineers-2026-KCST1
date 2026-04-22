@@ -12,14 +12,33 @@ The system is designed to achieve **robust, repeatable, and stable navigation** 
 ---
 
 ## 👥 Team Members
-- Abbas  
-- Sara  
-    
+
+### Sara
+![Sara](t-photos/Sara.jpeg)
+
+*Responsible for hardware design, mechanical integration, and repository (GitHub) management.*
+
+---
+
+### Abbas
+![Abbas](t-photos/Abbas.jpeg)
+
+*Responsible for software development, testing, and system validation.*
+
+---
+
 ### 👩‍🏫 Coach
-- Eng. Zainab  
+- Eng. Zainab
+
 
 We would like to express our sincere appreciation to our coach for her guidance, support, and continuous feedback throughout the development of this project.
 ---
+
+
+### Team
+![Team](t-photos/Team%20WRO2025.jpeg)
+
+
 
 ## 🎥 Demonstration Video
 👉 https://youtu.be/j1B9A54QlEQ  
