@@ -13,5 +13,8 @@ Two navigation strategies were developed and tested.
 - Faster movement
 - May introduce slight drift
 
+## 3. Reverse-and-Turn Navigation Strategy
+This version of the code stops the robot when a wall is detected, reverses slightly, and then performs the turn. This strategy was developed to improve turning space and reduce steering errors when the robot approaches walls too closely.
+
 ## Competition Strategy
-Both versions are kept and tested. The final selection will be made based on performance during competition conditions.
+all versions are kept and tested. The final selection will be made based on performance during competition conditions.
