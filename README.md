@@ -1,13 +1,26 @@
 # 🤖 WRO Future Engineers 2026 – KCST1  
 
-## 🚀 Autonomous Self-Driving Robot
+## 🚀 Blaze – Autonomous Self-Driving Robot
 
-This repository presents the full design, development, and validation of our autonomous robot for the **World Robot Olympiad (WRO) 2026 – Future Engineers category**.
+This repository presents the full design, development, and validation of **Blaze**, our autonomous robot developed for the **World Robot Olympiad (WRO) 2026 – Future Engineers category**.
 
-The system is designed to achieve **robust, repeatable, and stable navigation** within a closed arena using a combination of:
+Blaze is designed to achieve **robust, repeatable, and stable navigation** within a closed arena using a combination of:
 - Laser-based environmental sensing  
 - Steering-based motion control  
 - Deterministic decision-making algorithms  
+
+---
+
+## 🔥 About Blaze
+
+**Blaze** represents speed, precision, and reliability — the core principles behind our robot design.
+
+The name reflects:
+- 🔥 Fast and decisive movement  
+- 🔥 Strong and stable performance under pressure  
+- 🔥 Consistent execution across multiple runs  
+
+Blaze was engineered through multiple iterations, combining **mechanical improvements, sensor optimization, and refined control logic** to achieve competition-level performance.
 
 ---
 
