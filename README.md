@@ -241,7 +241,9 @@ else
   <img src="v-photos/21.%20final%20design.jpg" width="250"/>
 </div>
 
-The final robot design represents the result of multiple engineering iterations.
+### 🏷️ Robot Name: Blaze
+
+The final system is officially named **Blaze**, representing the robot’s ability to navigate quickly and reliably while maintaining control and stability.
 
 ### Key Improvements:
 - Uniform wheel system  
