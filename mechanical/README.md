@@ -47,7 +47,9 @@ After upgrading the wheels, the axle did not fit tightly inside the wheel hub, l
 
 - Loose connection  
 - Wheel wobbling  
-- Inconsistent steering  
+- Inconsistent steering
+    <div align="center">
+  <img src="../v-photos/24.%20axle%20before%20(loose).jpeg" width="220"/>
 
 ### ✅ Solution
 
@@ -55,7 +57,12 @@ A custom 3D printed axle was designed to:
 
 - Match the exact diameter of the wheel hub  
 - Provide a tight and secure fit  
-- Eliminate unwanted movement  
+- Eliminate unwanted movement
+
+  <div align="center">
+  <img src="../v-photos/25.%203D%20printed%20axle%20pieces.jpeg" width="220"/>
+  <img src="../v-photos/27.%20installed%20axle%20on%20robot.jpeg" width="220"/>
+</div>
 
 ### 🎯 Result
 
@@ -75,3 +82,4 @@ The mechanical system was developed using an **iterative engineering process**:
 4. Apply targeted improvements  
 
 This approach ensured continuous improvement and reliable final performance.
+
