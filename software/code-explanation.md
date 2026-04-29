@@ -9,7 +9,7 @@ The core navigation logic is implemented using a **state machine approach**, whi
 ### State Machine Diagram
 
 <div align="center">
-  <img src="v-photos/state_machine.png" width="600"/>
+  <img src="../v-photos/state_machine.png" width="600"/>
 </div>
 
 **Explanation of States:**
