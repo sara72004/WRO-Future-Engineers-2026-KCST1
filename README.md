@@ -152,7 +152,9 @@ We engineered and implemented a **custom 3D printed axle**. This innovative desi
 
 This diagram illustrates the interconnectedness of Blaze's subsystems, from power distribution to sensing and actuation.
 
-![System Architecture Diagram](schemes/system_architecture.png)
+<div align="center">
+  <img src="v-photos/system_architecture.png" width="600"/>
+</div>
 
 ---
 
@@ -207,13 +209,17 @@ Blaze's software architecture is designed for modularity, flexibility, and robus
 
 This diagram visualizes the robot's operational states and transitions, providing a clear understanding of its decision-making process.
 
-![Software State Machine Diagram](software/state_machine.png)
+<div align="center">
+  <img src="v-photos/state_machine.png" width="600"/>
+</div>
 
 ### Navigation Logic Flowchart
 
 This flowchart details the decision-making process for Blaze's navigation, including sensor checks and obstacle handling.
 
-![Navigation Logic Flowchart](software/navigation_logic.png)
+<div align="center">
+  <img src="v-photos/navigation_logic.png" width="600"/>
+</div>
 
 ### Navigation Strategies: Speed vs. Precision
 
