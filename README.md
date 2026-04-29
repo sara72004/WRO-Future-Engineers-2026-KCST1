@@ -206,16 +206,20 @@ Both approaches kept for flexibility during competition
 
 The complete implementation is available in the `src/` folder.
 
+The final code used for the Open Challenge is:
+
+```text
+open_challenge_final_pid_wall_following.ino
+
 Example logic:
 
-```cpp
-if (rightS < leftS)
+if (clockwiseMode)
 {
-    Direction = 'L';
+    // Follow left wall
 }
 else
 {
-    Direction = 'R';
+    // Follow right wall
 }
 ```
 ---
