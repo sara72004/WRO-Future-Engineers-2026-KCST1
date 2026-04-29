@@ -1,30 +1,20 @@
-# 🤖 WRO Future Engineers 2026 – KCST1  
+# 🚀 WRO Future Engineers 2026 – Team KCST1: Blaze Autonomous Robot
 
-## 🚀 Blaze – Autonomous Self-Driving Robot
+## ✨ Unleashing Blaze: Precision, Speed, and Innovation in Autonomous Robotics
 
-This repository presents the full design, development, and validation of **Blaze**, our autonomous robot developed for the **World Robot Olympiad (WRO) 2026 – Future Engineers category**.
+Welcome to the official repository for **Blaze**, our cutting-edge autonomous robot designed and developed for the **World Robot Olympiad (WRO) 2026 – Future Engineers category**. Blaze is not just a robot; it's a testament to meticulous engineering, innovative problem-solving, and relentless pursuit of excellence. Our mission: to achieve **unparalleled robust, repeatable, and stable navigation** within a dynamic arena, powered by a sophisticated blend of laser-based environmental sensing, advanced steering control, and deterministic decision-making algorithms.
 
-Blaze is designed to achieve **robust, repeatable, and stable navigation** within a closed arena using a combination of:
-- Laser-based environmental sensing  
-- Steering-based motion control  
-- Deterministic decision-making algorithms  
+### Why "Blaze"?
 
----
+Our robot's name, **Blaze**, encapsulates its core attributes and our team's aspirations:
 
-## 🔥 About Blaze
+*   🔥 **Blazing Speed:** Fast and decisive movement across the competition track.
+*   🔥 **Blazing Performance:** Strong, stable, and consistent execution under pressure.
+*   🔥 **Blazing Innovation:** A beacon of engineering ingenuity, pushing the boundaries of autonomous navigation.
 
-**Blaze** represents speed, precision, and reliability — the core principles behind our robot design.
+Blaze is the culmination of countless hours of iterative design, rigorous testing, and continuous refinement, integrating state-of-the-art mechanical improvements, optimized sensor fusion, and intelligent control logic to deliver a truly competition-winning performance.
 
-The name reflects:
-- 🔥 Fast and decisive movement  
-- 🔥 Strong and stable performance under pressure  
-- 🔥 Consistent execution across multiple runs  
-
-Blaze was engineered through multiple iterations, combining **mechanical improvements, sensor optimization, and refined control logic** to achieve competition-level performance.
-
----
-
-## 👥 Team Members
+## 👥 Meet the Innovators: Team KCST1
 
 <div align="center">
 
@@ -54,47 +44,49 @@ Blaze was engineered through multiple iterations, combining **mechanical improve
 
 ---
 
-### 👩‍🏫 Coach
-- Eng. Zainab  
+### 👩‍🏫 Our Guiding Light: Coach Eng. Zainab
 
-We would like to express our sincere appreciation to our coach for her guidance, support, and continuous feedback throughout the development of this project.
-
----
+We extend our deepest gratitude to Eng. Zainab, whose invaluable guidance, unwavering support, and insightful feedback were instrumental in shaping Blaze into the formidable machine it is today.
 
 ### Team
 ![Team](t-photos/Team%20WRO2025.jpeg)
 
 ---
 
-## 🎥 Demonstration Video
-👉 https://youtu.be/j1B9A54QlEQ  
+## 🎥 Witness Blaze in Action: Demonstration Video
+
+Experience Blaze's autonomous capabilities firsthand:
+
+👉 [WRO Future Engineers 2026 - Team KCST1 Robot Demonstration Video](https://youtu.be/j1B9A54QlEQ )
 
 ---
 
-## 🧠 Engineering Objective
+## 🎯 The Engineering Imperative: Blaze's Core Objectives
 
-The primary objective was to develop a robot capable of:
+Our primary engineering objective was to construct a robot capable of:
 
-- Autonomous wall detection and corner navigation  
-- Stable steering under varying speeds  
-- Consistent lap completion without external input  
-- High reliability under real competition conditions  
+*   **Autonomous Wall & Corner Navigation:** Seamlessly detecting and navigating complex track layouts.
+*   **Stable & Responsive Steering:** Maintaining precise control across varying speeds and terrains.
+*   **Consistent Lap Completion:** Reliably finishing multiple laps without human intervention.
+*   **High Reliability:** Performing flawlessly under the demanding conditions of real-world competition.
 
 ---
 
-## 🔧 Hardware Architecture
+## ⚙️ Hardware Architecture: The Foundation of Performance
 
-### 🧠 Controller
+Blaze's robust hardware architecture is meticulously designed for optimal performance and reliability.
+
+### 🧠 The Brain: MATRIX Mini R4 Controller
 
 <div align="center">
 <img src="v-photos/MAFI900 , MATRIX WRO Future Innovators Set.png" width="300"/>
 </div>
 
-- MATRIX Mini R4 (MAFI900 kit)  
+At the heart of Blaze lies the **MATRIX Mini R4 (MAFI900 kit)**, serving as the central processing unit, orchestrating all sensor inputs and motor outputs with precision.
 
 ---
 
-### 📡 Sensor System
+### 📡 The Eyes & Ears: Advanced Sensor System
 
 <div align="center">
 <img src="v-photos/V2MATRIX Laser Sensor V2.png" width="220"/>
@@ -102,39 +94,41 @@ The primary objective was to develop a robot capable of:
 <img src="v-photos/MS-010 , M-Vision Cam with Type-C Cable Pack.png" width="220"/>
 </div>
 
-- **3 × MATRIX Laser Sensor V2**
-- **MATRIX Color Sensor V3**
-- **M-Vision Camera (MS-010)**  
+Our sensor suite provides Blaze with comprehensive environmental awareness:
 
-✔ Laser sensors chosen for reliability and consistency  
+*   **3 × MATRIX Laser Sensor V2:** Strategically positioned for superior reliability and consistency in distance measurement, crucial for accurate wall detection and navigation, regardless of lighting conditions.
+*   **MATRIX Color Sensor V3:** Utilized for initial track detection and identifying specific colored markers, ensuring precise alignment.
+*   **M-Vision Camera (MS-010):** Provides broader environmental awareness, enabling advanced decision-making for obstacle recognition and path planning.
+
+✔ Laser sensors chosen for reliability and consistency.
 
 ---
 
-### ⚙️ Actuation System
+### ⚡ The Muscles: Actuation System
 
 <div align="center">
 <img src="v-photos/METT-MG001 , MATRIX TT Encoder Motor with metal gear box.png" width="220"/>
 <img src="v-photos/MRC-MG996R , MATRIX RC Servo with metal gear box.png" width="220"/>
 </div>
 
-- TT Encoder Motor  
-- MG996R Servo Motor  
+*   **TT Encoder Motors (x2):** Deliver precise control over wheel rotation and speed, essential for accurate steering and consistent movement.
+*   **MG996R Servo Motor:** Provides high torque and rapid response for dynamic steering adjustments.
 
 ---
 
-### 🛞 Wheel System
+### 🛞 The Grip: Optimized Wheel System
 
 <div align="center">
 <img src="v-photos/MATRIX TT Wheel (Blue Rim).png" width="220"/>
 </div>
 
-- MATRIX TT Wheels  
+*   **MATRIX TT Wheels:** Selected for their optimal grip and durability on the competition surface. Extensive testing revealed that a uniform wheel system significantly improves stability and predictability compared to mixed configurations.
 
-✔ Improved stability after replacing mixed wheels  
+✔ Improved stability after replacing mixed wheels.
 
 ---
 
-### 🔧 Mechanical Innovation – Custom Axle
+### 🔧 Mechanical Innovation: The Custom 3D Printed Axle
 
 <div align="center">
 <img src="v-photos/24.%20axle%20before%20(loose).jpeg" width="220"/>
@@ -142,58 +136,100 @@ The primary objective was to develop a robot capable of:
 <img src="v-photos/27.%20installed%20axle%20on%20robot.jpeg" width="220"/>
 </div>
 
-#### Problem:
-Loose axle → unstable steering  
+#### The Challenge:
 
-#### Solution:
-Custom 3D printed axle  
+Early prototypes struggled with a loose axle, leading to unstable steering and compromised accuracy during turns, severely impacting lap times and overall performance.
 
-✔ Result: precise steering and stability  
+#### The Breakthrough Solution:
+
+We engineered and implemented a **custom 3D printed axle**. This innovative design provides a secure and precise fit, eliminating play and dramatically enhancing steering stability and control. The CAD files for this critical component are available in the `mechanical/CAD` directory, ensuring full reproducibility.
+
+✔ Result: A significant leap in steering precision and stability, directly translating to improved navigation and reduced error rates.
 
 ---
 
-## 🧭 Navigation System Design
+## 💡 System Architecture Overview
 
-### ❌ Initial Approach – Color-Based Navigation
+This diagram illustrates the interconnectedness of Blaze's subsystems, from power distribution to sensing and actuation.
+
+![System Architecture Diagram](schemes/system_architecture.png)
+
+---
+
+## 🧭 Navigation System Design: From Challenge to Precision
+
+### ❌ The Initial Detour: Color-Based Navigation
 
 <div align="center">
 <img src="v-photos/13.%20blue%20color%20sensor%20testing.jpeg" width="220"/>
 <img src="v-photos/15.%20orange%20color%20sensor%20testing.jpeg" width="220"/>
 </div>
 
-Issues:
-- Missed detections  
-- Lighting sensitivity  
-- Inconsistent runs  
+Our initial exploration into color-based navigation revealed critical limitations:
+
+*   **Frequent Missed Detections:** Inconsistent recognition of track lines and obstacles, especially at higher speeds.
+*   **Lighting Sensitivity:** Performance heavily reliant on ambient light, leading to unpredictable behavior across different environments.
+*   **Inconsistent Runs:** High variability in detection resulted in unreliable lap completions.
 
 ---
 
-### ✅ Final Approach – Laser-Based Navigation
 
-✔ Reliable  
-✔ Consistent  
-✔ Independent of lighting  
+### ✅ The Optimal Path: Laser-Based Navigation
 
----
+Learning from these challenges, we pivoted to a laser-based system, offering decisive advantages:
 
-### 🔁 Direction Locking Strategy
+*   **Unwavering Reliability:** Consistent and accurate distance readings, independent of surface color or texture.
+*   **Environmental Robustness:** Stable operation across diverse lighting conditions, ensuring predictable performance.
+*   **Repeatable Precision:** Eliminates variability, leading to highly predictable and repeatable robot behavior.
 
-- First turn decides direction  
-- All future turns follow same direction  
-
-✔ Prevents oscillation  
 
 ---
 
-## 💻 Software Architecture
 
-### 🅰️ Stop-Then-Turn
-- High accuracy  
-- Slower  
+### 🔁 The Direction Locking Strategy
 
-### 🅱️ Continuous Turn
-- Faster  
-- Slight drift  
+To prevent oscillation and ensure smooth, efficient navigation, we implemented a sophisticated direction locking strategy:
+
+*   The robot's initial turn in any section establishes its intended direction of travel.
+*   All subsequent turns within that section are then constrained to follow this established direction.
+
+✔ Result: This strategy effectively eliminates confusion and oscillation, contributing to exceptionally smooth and efficient navigation.
+
+
+---
+
+
+## 💻 Software Architecture: The Brains Behind the Blaze
+
+Blaze's software architecture is designed for modularity, flexibility, and robust decision-making, utilizing a state machine approach for clear control flow.
+
+### Software State Machine Diagram
+
+This diagram visualizes the robot's operational states and transitions, providing a clear understanding of its decision-making process.
+
+![Software State Machine Diagram](software/state_machine.png)
+
+### Navigation Logic Flowchart
+
+This flowchart details the decision-making process for Blaze's navigation, including sensor checks and obstacle handling.
+
+![Navigation Logic Flowchart](software/navigation_logic.png)
+
+### Navigation Strategies: Speed vs. Precision
+
+We developed and implemented two distinct navigation strategies, offering tactical flexibility:
+*   **🅰️ Stop-Then-Turn Strategy:**
+    *   **Description:** The robot comes to a complete stop before executing a turn, prioritizing accuracy and control.
+    *   **Advantages:** High accuracy, minimal overshoot, precise positioning.
+    *   **Disadvantages:** Slower overall speed due to frequent stops.
+
+*   **🅱️ Continuous Turn Strategy:**
+    *   **Description:** The robot executes turns while maintaining continuous forward motion, prioritizing speed.
+    *   **Advantages:** Faster lap times due to uninterrupted movement.
+    *   **Disadvantages:** May exhibit slight drift or wider turning radius, potentially impacting precision.
+
+Both strategies are available in the `src/` folder, allowing the team to select the optimal approach based on specific competition challenges and desired performance characteristics.
+
 
 ---
 
@@ -201,6 +237,7 @@ Issues:
 Both approaches kept for flexibility during competition  
 
 ---
+
 
 ## 💻 Source Code
 
