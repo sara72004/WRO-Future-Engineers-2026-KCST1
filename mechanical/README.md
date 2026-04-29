@@ -72,6 +72,17 @@ A custom 3D printed axle was designed to:
 
 ---
 
+## 🧱 CAD File
+
+The custom 3D printed axle design is included in this repository.
+
+| File | Description |
+|---|---|
+| [wheel_shaft_83mm.stl](wheel_shaft_83mm.stl) | Custom 3D printed axle used to improve wheel fit and steering stability |
+
+This part was designed after the original axle was found to be loose inside the upgraded wheel hub.
+
+
 ## 🧪 Design Approach
 
 The mechanical system was developed using an **iterative engineering process**:
