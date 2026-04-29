@@ -326,3 +326,7 @@ Each folder is structured to reflect a specific aspect of the engineering workfl
 ## 🧾 Final Note
 
 The robot achieves **stable, repeatable, and reliable autonomous navigation**, meeting WRO requirements while demonstrating strong engineering principles.
+
+## 📚 References
+
+[1] World Robot Olympiad. (2026). *WRO 2026 Future Engineers – Self-Driving Cars General Rules.*
