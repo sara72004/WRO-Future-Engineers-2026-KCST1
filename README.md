@@ -296,17 +296,22 @@ The final system is officially named **Blaze**, representing the robot’s abili
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structure: Your Guide to Blaze
 
-- `engineering_journal/`
-- `hardware/`
-- `mechanical/`
-- `software/`
-- `src/`
-- `testing/`
-- `t-photos/`
-- `v-photos/`
-- `video/`
+Our GitHub repository is organized to provide a clear and complete overview of the project:
+
+- `engineering_journal/` – Detailed documentation of the engineering process, design decisions, and iterations  
+- `hardware/` – Electronic components, specifications, and power system  
+- `mechanical/` – CAD files, 3D printed parts, and mechanical design  
+- `schemes/` – System block diagrams and wiring diagrams  
+- `software/` – Software architecture and algorithm explanations  
+- `src/` – Source code for the robot  
+- `testing/` – Testing procedures, results, and validation  
+- `t-photos/` – Team photos  
+- `v-photos/` – Robot photos and design evolution  
+- `video/` – Demonstration video links  
+
+Each folder is structured to reflect a specific aspect of the engineering workflow, making it easy to understand how Blaze was designed, built, and validated.
 
 ---
 
