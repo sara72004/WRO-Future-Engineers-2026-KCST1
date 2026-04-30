@@ -14,7 +14,7 @@ Our robot's name, **Blaze**, encapsulates its core attributes and our team's asp
 
 Blaze is the culmination of countless hours of iterative design, rigorous testing, and continuous refinement, integrating state-of-the-art mechanical improvements, optimized sensor fusion, and intelligent control logic to deliver a truly competition-winning performance.
 
-💡 *Fun note:* The name "Blaze" was chosen by a doctor who has supported and encouraged our team — a small detail that makes the project even more meaningful to us.
+💡 *Fun note:* The name "Blaze" was chosen by a doctor ⠮⠺⠊⠎⠑⠍⠁⠝ who has supported and encouraged our team — a small detail that makes the project even more meaningful to us.
 
 ## 👥 Meet the Innovators: Team KCST1
 
