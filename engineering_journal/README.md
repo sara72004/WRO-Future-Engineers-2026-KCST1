@@ -135,8 +135,9 @@ The core navigation logic is implemented using a **state machine approach**, whi
 
 ### State Machine Diagram
 
-![Software State Machine Diagram](software/state_machine.png)
-
+<div align="center">
+  <img src="../v-photos/state_machine.png" width="600"/>
+</div>
 **Explanation of States:**
 
 *   **Initial:** The starting state of the robot, awaiting activation.
