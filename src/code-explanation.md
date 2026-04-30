@@ -79,3 +79,85 @@ Earlier versions used fixed turn sequences such as:
 - stop-reverse-then-turn
 
 Those versions worked, but they were less adaptive. This final version performs better because it continuously corrects its path using sensor feedback, making it smoother, faster, and more reliable for the open challenge.
+
+
+---
+
+## Obstacle Challenge Camera Code Explanation
+
+This code is used for the **Obstacle Challenge**. It is the most advanced version because it combines laser wall-following, camera obstacle detection, front-wall avoidance, and reverse recovery.
+
+### Main Idea
+
+The robot normally follows the arena wall using PID control. When the camera detects a red or green obstacle, the robot changes its steering to pass the obstacle from the correct side:
+
+- **Red obstacle** → pass on the **right**
+- **Green obstacle** → pass on the **left**
+
+The code also includes a safety recovery system that reverses the robot if it gets too close to a wall or obstacle.
+
+---
+
+### Sensor Ports
+
+- `I2C1` → Color Sensor V3
+- `I2C2` → Front Laser Sensor
+- `I2C3` → Right Laser Sensor
+- `I2C4` → Left Laser Sensor
+- `Serial1` → M-Vision Camera UART data
+
+---
+
+### Actuator Ports
+
+- `M1` → TT Encoder Motor
+- `RC3` → Steering Servo
+
+---
+
+### Camera Packet
+
+The camera sends obstacle data in this format:
+
+```text
+seen,color,cx,cy,w,h,score,zone
+```
+---
+
+### Control Priority System
+
+The robot follows a priority-based decision system to ensure safe and reliable navigation.
+
+1. Reverse Recovery  
+   Activated when the robot is too close to a wall or obstacle. The robot reverses and repositions itself.
+
+2. Camera Obstacle Guidance  
+   When a valid red or green obstacle is detected, the robot adjusts its path to pass on the correct side.
+
+3. Front Wall Assist  
+   If the front laser detects a wall, the robot performs a temporary steering correction to avoid collision.
+
+4. Normal PID Wall Following  
+   Default behavior when no obstacles or hazards are present.
+
+   ### PID Control System
+
+The robot uses a PID controller to maintain a stable distance from the wall.
+
+- Proportional (P): reacts to the current error between target distance and actual distance  
+- Integral (I): corrects accumulated small errors over time  
+- Derivative (D): reduces overshooting and stabilizes motion  
+
+This allows smooth and accurate wall-following instead of sharp or unstable steering.
+
+### System Advantages
+
+This implementation improves performance compared to simpler approaches by combining:
+
+- Sensor fusion (camera + laser sensors)
+- Adaptive steering using PID control
+- Reverse recovery for safety
+- Obstacle-aware navigation
+- Servo smoothing for stability
+
+These features allow the robot to handle real competition conditions more reliably.
