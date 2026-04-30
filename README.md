@@ -189,6 +189,16 @@ Learning from these challenges, we pivoted to a laser-based system, offering dec
 
 ---
 
+## ⚖️ Design Trade-offs
+
+We initially considered using color-based navigation due to its simplicity. However, testing revealed sensitivity to lighting conditions and missed detections at higher speeds.
+
+Laser sensors were selected instead because they provide:
+- Faster response time
+- Consistent readings regardless of lighting
+- More reliable wall detection for high-speed navigation
+  
+---
 
 ### 🔁 The Direction Locking Strategy
 
