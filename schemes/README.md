@@ -6,7 +6,9 @@ This directory contains schematic diagrams illustrating the electromechanical sy
 
 ## 📊 System Block Diagram
 
-![System Block Diagram](../v-photos/mermaid-diagram.png)
+<div align="center">
+  <img src="../v-photos/mermaid-diagram.png" width="650"/>
+</div>
 
 This diagram shows the high-level system structure:
 - Sensors provide input data
@@ -17,7 +19,9 @@ This diagram shows the high-level system structure:
 
 ## 🔌 Wiring Diagram
 
-![Wiring Diagram](../v-photos/mermaid-diagram%20wiring.png)
+<div align="center">
+  <img src="../v-photos/mermaid-diagram%20wiring.png" width="650"/>
+</div>
 
 This diagram shows the wiring connections between:
 - Laser sensors
@@ -30,6 +34,21 @@ This diagram shows the wiring connections between:
 
 ---
 
+## 🏗️ System Architecture Diagram
+
+This diagram explains Blaze’s complete architecture, including the power system, sensing layer, control unit, and actuation layer.
+
+<div align="center">
+  <img src="../v-photos/system_architecture.png" width="750"/>
+</div>
+
+---
+
 ## ✅ Summary
 
-These diagrams explain how all major electrical and mechanical control components connect together in the final robot design.
+These diagrams help explain:
+
+- How the robot’s components are connected  
+- How sensor data reaches the controller  
+- How the controller sends commands to the motor and servo  
+- How power is distributed across the system  
