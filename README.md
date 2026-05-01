@@ -8,13 +8,13 @@ Welcome to the official repository for **Blaze**, our cutting-edge autonomous ro
 
 Our robot's name, **Blaze**, encapsulates its core attributes and our team's aspirations:
 
-*   🔥 **Blazing Speed:** Fast and decisive movement across the competition track.
-*   🔥 **Blazing Performance:** Strong, stable, and consistent execution under pressure.
-*   🔥 **Blazing Innovation:** A beacon of engineering ingenuity, pushing the boundaries of autonomous navigation.
+*    **Blazing Speed:** Fast and decisive movement across the competition track.
+*    **Blazing Performance:** Strong, stable, and consistent execution under pressure.
+*    **Blazing Innovation:** A beacon of engineering ingenuity, pushing the boundaries of autonomous navigation.
 
 Blaze is the culmination of countless hours of iterative design, rigorous testing, and continuous refinement, integrating state-of-the-art mechanical improvements, optimized sensor fusion, and intelligent control logic to deliver a truly competition-winning performance.
 
-💡 *Fun note:* The name "Blaze" was chosen by a doctor ⠮⠺⠊⠎⠑⠍⠁⠝ who has supported and encouraged our team — a small detail that makes the project even more meaningful to us.
+:)  *Fun note:* The name "Blaze" was chosen by a doctor ⠮⠺⠊⠎⠑⠍⠁⠝ who has supported and encouraged our team, a small detail that makes the project even more meaningful to us.
 
 ## 👥 Meet the Innovators: Team KCST1
 
@@ -63,7 +63,7 @@ Experience Blaze's autonomous capabilities firsthand:
 
 ---
 
-## 🎯 The Engineering Imperative: Blaze's Core Objectives
+##  The Engineering Imperative: Blaze's Core Objectives
 
 Our primary engineering objective was to construct a robot capable of:
 
@@ -74,11 +74,11 @@ Our primary engineering objective was to construct a robot capable of:
 
 ---
 
-## ⚙️ Hardware Architecture: The Foundation of Performance
+##  Hardware Architecture: The Foundation of Performance
 
 Blaze's robust hardware architecture is meticulously designed for optimal performance and reliability.
 
-### 🧠 The Brain: MATRIX Mini R4 Controller
+###  The Brain: MATRIX Mini R4 Controller
 
 <div align="center">
 <img src="v-photos/MAFI900 , MATRIX WRO Future Innovators Set.png" width="300"/>
@@ -88,7 +88,7 @@ At the heart of Blaze lies the **MATRIX Mini R4 (MAFI900 kit)**, serving as the 
 
 ---
 
-### 📡 The Eyes & Ears: Advanced Sensor System
+###  The Eyes & Ears: Advanced Sensor System
 
 <div align="center">
 <img src="v-photos/V2MATRIX Laser Sensor V2.png" width="220"/>
@@ -102,11 +102,11 @@ Our sensor suite provides Blaze with comprehensive environmental awareness:
 *   **MATRIX Color Sensor V3:** Utilized for initial track detection and identifying specific colored markers, ensuring precise alignment.
 *   **M-Vision Camera (MS-010):** Provides broader environmental awareness, enabling advanced decision-making for obstacle recognition and path planning.
 
-✔ Laser sensors chosen for reliability and consistency.
+ Laser sensors chosen for reliability and consistency.
 
 ---
 
-### ⚡ The Muscles: Actuation System
+###  The Muscles: Actuation System
 
 <div align="center">
 <img src="v-photos/METT-MG001 , MATRIX TT Encoder Motor with metal gear box.png" width="220"/>
@@ -118,7 +118,7 @@ Our sensor suite provides Blaze with comprehensive environmental awareness:
 
 ---
 
-### 🛞 The Grip: Optimized Wheel System
+###  The Grip: Optimized Wheel System
 
 <div align="center">
 <img src="v-photos/MATRIX TT Wheel (Blue Rim).png" width="220"/>
@@ -126,11 +126,11 @@ Our sensor suite provides Blaze with comprehensive environmental awareness:
 
 *   **MATRIX TT Wheels:** Selected for their optimal grip and durability on the competition surface. Extensive testing revealed that a uniform wheel system significantly improves stability and predictability compared to mixed configurations.
 
-✔ Improved stability after replacing mixed wheels.
+ Improved stability after replacing mixed wheels.
 
 ---
 
-### 🔧 Mechanical Innovation: The Custom 3D Printed Axle
+###  Mechanical Innovation: The Custom 3D Printed Axle
 
 <div align="center">
 <img src="v-photos/24.%20axle%20before%20(loose).jpeg" width="220"/>
@@ -146,11 +146,11 @@ Early prototypes struggled with a loose axle, leading to unstable steering and c
 
 We engineered and implemented a **custom 3D printed axle**. This innovative design provides a secure and precise fit, eliminating play and dramatically enhancing steering stability and control. The CAD files for this critical component are available in the `mechanical/CAD` directory, ensuring full reproducibility.
 
-✔ Result: A significant leap in steering precision and stability, directly translating to improved navigation and reduced error rates.
+ Result: A significant leap in steering precision and stability, directly translating to improved navigation and reduced error rates.
 
 ---
 
-## 💡 System Architecture Overview
+##  System Architecture Overview
 
 This diagram illustrates the interconnectedness of Blaze's subsystems, from power distribution to sensing and actuation.
 
@@ -160,7 +160,7 @@ This diagram illustrates the interconnectedness of Blaze's subsystems, from powe
 
 ---
 
-## 🧭 Navigation System Design: From Challenge to Precision
+##  Navigation System Design: From Challenge to Precision
 
 ### ❌ The Initial Detour: Color-Based Navigation
 
@@ -189,7 +189,7 @@ Learning from these challenges, we pivoted to a laser-based system, offering dec
 
 ---
 
-## ⚖️ Design Trade-offs
+##  Design Trade-offs
 
 We initially considered using color-based navigation due to its simplicity. However, testing revealed sensitivity to lighting conditions and missed detections at higher speeds.
 
@@ -200,7 +200,7 @@ Laser sensors were selected instead because they provide:
   
 ---
 
-### 🔁 The Direction Locking Strategy
+###  The Direction Locking Strategy
 
 To prevent oscillation and ensure smooth, efficient navigation, we implemented a sophisticated direction locking strategy:
 
@@ -213,7 +213,7 @@ To prevent oscillation and ensure smooth, efficient navigation, we implemented a
 ---
 
 
-## 💻 Software Architecture: The Brains Behind the Blaze
+##  Software Architecture: The Brains Behind the Blaze
 
 Blaze's software architecture is designed for modularity, flexibility, and robust decision-making, utilizing a state machine approach for clear control flow.
 
@@ -251,13 +251,13 @@ Both strategies are available in the `src/` folder, allowing the team to select 
 
 ---
 
-### 🎯 Final Strategy
+###  Final Strategy
 Both approaches kept for flexibility during competition  
 
 ---
 
 
-## 💻 Source Code
+##  Source Code
 
 The complete implementation is available in the `src/` folder.
 
@@ -279,7 +279,7 @@ else
 ```
 ---
 
-## 🧪 Testing & Validation
+##  Testing & Validation
 
 <div align="center">
   <img src="v-photos/home%20arena.jpeg" width="250"/>
@@ -289,18 +289,18 @@ else
 - Built a custom home arena  
 - Simulated competition conditions  
 
-✔ Enabled continuous testing
+ Enabled continuous testing
 
 ---
 
-## 🏎️ Final Robot Design
+##  Final Robot Design
 
 <div align="center">
   <img src="v-photos/20.%20final%20design.jpg" width="250"/>
   <img src="v-photos/21.%20final%20design.jpg" width="250"/>
 </div>
 
-### 🏷️ Robot Name: Blaze
+###  Robot Name: Blaze
 
 The final system is officially named **Blaze**, representing the robot’s ability to navigate quickly and reliably while maintaining control and stability.
 
@@ -310,11 +310,11 @@ The final system is officially named **Blaze**, representing the robot’s abili
 - Optimized sensor placement  
 - Stable chassis design  
 
-✔ Achieved balance between **speed, stability, and reliability**
+ Achieved balance between **speed, stability, and reliability**
 
 ---
 
-## 📁 Repository Structure: Your Guide to Blaze
+##  Repository Structure: Your Guide to Blaze
 
 Our GitHub repository is organized to provide a clear and complete overview of the project:
 
@@ -333,7 +333,7 @@ Each folder is structured to reflect a specific aspect of the engineering workfl
 
 ---
 
-## 🏁 Engineering Summary
+##  Engineering Summary
 
 - Iterative design improvements  
 - Hardware and software optimization  
@@ -341,10 +341,10 @@ Each folder is structured to reflect a specific aspect of the engineering workfl
 
 ---
 
-## 🧾 Final Note
+##  Final Note
 
 The robot achieves **stable, repeatable, and reliable autonomous navigation**, meeting WRO requirements while demonstrating strong engineering principles.
 
-## 📚 References
+##  References
 
 [1] World Robot Olympiad. (2026). *WRO 2026 Future Engineers – Self-Driving Cars General Rules.*
