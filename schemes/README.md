@@ -4,7 +4,7 @@ This directory contains schematic diagrams illustrating the electromechanical sy
 
 ---
 
-## 📊 System Block Diagram
+##  System Block Diagram
 
 <div align="center">
   <img src="../v-photos/mermaid-diagram.png" width="650"/>
@@ -17,7 +17,7 @@ This diagram shows the high-level system structure:
 
 ---
 
-## 🔌 Wiring Diagram
+##  Wiring Diagram
 
 <div align="center">
   <img src="../v-photos/mermaid-diagram%20wiring.png" width="650"/>
@@ -34,7 +34,7 @@ This diagram shows the wiring connections between:
 
 ---
 
-## 🏗️ System Architecture Diagram
+##  System Architecture Diagram
 
 This diagram explains Blaze’s complete architecture, including the power system, sensing layer, control unit, and actuation layer.
 
@@ -44,7 +44,7 @@ This diagram explains Blaze’s complete architecture, including the power syste
 
 ---
 
-## ✅ Summary
+##  Summary
 
 These diagrams help explain:
 
