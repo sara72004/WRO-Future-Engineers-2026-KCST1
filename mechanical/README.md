@@ -4,7 +4,7 @@ This section documents the mechanical structure, design decisions, and improveme
 
 ---
 
-## 🧱 Chassis Design
+##  Chassis Design
 
 The robot chassis was built using the MATRIX structural system. The design focuses on:
 
@@ -16,7 +16,7 @@ The controller, sensors, and battery are positioned to maintain balance and redu
 
 ---
 
-## 🛞 Wheel System Upgrade
+##  Wheel System Upgrade
 
 Initially, the robot used mixed wheel types, which caused:
 
@@ -24,11 +24,11 @@ Initially, the robot used mixed wheel types, which caused:
 - Vibrations  
 - Poor steering accuracy  
 
-### ✅ Improvement
+###  Improvement
 
 All wheels were replaced with identical **MATRIX TT Wheels (Blue Rim)**.
 
-### 🎯 Result
+###  Result
 
 - Smoother motion  
 - Improved traction  
@@ -36,12 +36,12 @@ All wheels were replaced with identical **MATRIX TT Wheels (Blue Rim)**.
 
 ---
 
-## 🔧 Custom 3D Printed Axle
+##  Custom 3D Printed Axle
 
-### 📁 File
+###  File
 - `cad/wheel_shaft_83mm.stl`
 
-### ⚠️ Problem
+###  Problem
 
 After upgrading the wheels, the axle did not fit tightly inside the wheel hub, leading to:
 
@@ -51,7 +51,7 @@ After upgrading the wheels, the axle did not fit tightly inside the wheel hub, l
     <div align="center">
   <img src="../v-photos/24.%20axle%20before%20(loose).jpeg" width="220"/>
 
-### ✅ Solution
+###  Solution
 
 A custom 3D printed axle was designed to:
 
@@ -64,7 +64,7 @@ A custom 3D printed axle was designed to:
   <img src="../v-photos/27.%20installed%20axle%20on%20robot.jpeg" width="220"/>
 </div>
 
-### 🎯 Result
+###  Result
 
 - Increased steering precision  
 - Improved mechanical stability  
@@ -72,7 +72,7 @@ A custom 3D printed axle was designed to:
 
 ---
 
-## 🧱 CAD File
+##  CAD File
 
 The custom 3D printed axle design is included in this repository.
 
@@ -83,7 +83,7 @@ The custom 3D printed axle design is included in this repository.
 This part was designed after the original axle was found to be loose inside the upgraded wheel hub.
 
 
-## 🧪 Design Approach
+##  Design Approach
 
 The mechanical system was developed using an **iterative engineering process**:
 
