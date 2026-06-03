@@ -1,0 +1,34 @@
+Team: KCST1
+Robot: Blaze
+
+AI Tool Used:
+- OpenAI ChatGPT
+
+Purpose of AI Usage:
+- Improving documentation structure
+- Reviewing README formatting
+- Generating diagram templates
+- Improving grammar and readability
+- Assisting with code documentation and explanations
+- Suggesting repository organization
+
+AI was NOT used to:
+- Directly control the robot during operation
+- Generate final engineering decisions without verification
+- Replace testing, calibration, or validation performed by the team
+
+Example Prompts Used:
+
+1. "Help organize a WRO Future Engineers GitHub repository according to the competition requirements."
+
+2. "Create a README structure for a WRO Future Engineers robot named Blaze."
+
+3. "Explain this navigation code and generate documentation comments."
+
+4. "Generate a system block diagram and wiring diagram description."
+
+5. "Review repository completeness according to WRO Future Engineers requirements."
+
+Verification:
+All AI-generated suggestions were reviewed, modified, tested, and validated by the team before inclusion in the repository.
+
