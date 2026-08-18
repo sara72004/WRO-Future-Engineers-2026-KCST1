@@ -1,6 +1,6 @@
-# 🚀 WRO Future Engineers 2026 – Team KCST1: Blaze Autonomous Robot
+# ✨ WRO Future Engineers 2026 – Team KCST1: Blaze Autonomous Robot
 
-## ✨ Unleashing Blaze: Precision, Speed, and Innovation in Autonomous Robotics
+##  Unleashing Blaze: Precision, Speed, and Innovation in Autonomous Robotics
 
 Welcome to the official repository for **Blaze**, our cutting-edge autonomous robot designed and developed for the **World Robot Olympiad (WRO) 2026 – Future Engineers category**. Blaze is not just a robot; it's a testament to meticulous engineering, innovative problem-solving, and relentless pursuit of excellence. Our mission: to achieve **unparalleled robust, repeatable, and stable navigation** within a dynamic arena, powered by a sophisticated blend of laser-based environmental sensing, advanced steering control, and deterministic decision-making algorithms.
 
@@ -16,7 +16,7 @@ Blaze is the culmination of countless hours of iterative design, rigorous testin
 
 :)  *Fun note:* The name "Blaze" was chosen by a doctor ⠮⠺⠊⠎⠑⠍⠁⠝ who has supported and encouraged our team, a small detail that makes the project even more meaningful to us.
 
-## 👥 Meet the Innovators: Team KCST1
+##  Meet the Innovators: Team KCST1
 
 <div align="center">
 
@@ -46,7 +46,7 @@ Blaze is the culmination of countless hours of iterative design, rigorous testin
 
 ---
 
-### 👩‍🏫 Our Guiding Light: Coach Eng. Zainab
+###  Our Guiding Light: Coach Eng. Zainab
 
 We extend our deepest gratitude to Eng. Zainab, whose invaluable guidance, unwavering support, and insightful feedback were instrumental in shaping Blaze into the formidable machine it is today.
 
@@ -55,7 +55,7 @@ We extend our deepest gratitude to Eng. Zainab, whose invaluable guidance, unwav
 
 ---
 
-## 🎥 Witness Blaze in Action: Demonstration Video
+##  Witness Blaze in Action: Demonstration Video
 
 Experience Blaze's autonomous capabilities firsthand:
 
